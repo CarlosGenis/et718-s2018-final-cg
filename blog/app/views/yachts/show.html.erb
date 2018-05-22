@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @yacht.model %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @yacht.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @yacht.price %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @yacht.rating %>
+</p>
+
+<%= link_to 'Edit', edit_yacht_path(@yacht) %> |
+<%= link_to 'Back', yachts_path %>
